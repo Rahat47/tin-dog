@@ -21,17 +21,28 @@ p {
 .container-fluid {
     padding: 7% 15%;
 }
-/* TITLE SECTION */
-#title {
+
+.colored-section {
     background-color: #ff4c68;
     color: white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* TITLE SECTION */
+#title {
+    padding-top: 100px;
     min-height: 100vh;
     text-align: left;
 }
 #title .container-fluid {
     padding: 3% 15%;
 }
-.section-heading {
+.section-heading,
+.testimonial-text,
+.price-text {
     font-weight: bold;
     font-size: 3rem;
     line-height: 1.5;
@@ -44,7 +55,8 @@ p {
 }
 
 .navbar {
-    padding: 0 0 4.5rem;
+    padding: 1% 15%;
+    background-color: #ff4c68;
 }
 .navbar-brand {
     font-family: "Ubuntu";
@@ -70,7 +82,6 @@ p {
 }
 /* FEATURES SECTION */
 #features {
-    background-color: #fff;
     position: relative;
 }
 .feature-title {
@@ -92,13 +103,6 @@ p {
 /* TESTIMONIALS SECTION */
 #testimonials {
     background: #ef8172;
-    color: white;
-}
-
-.testimonial-text {
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
 }
 .testimonial-img {
     width: 10%;
@@ -109,7 +113,6 @@ p {
 /* PRESS SECTION */
 #press {
     background: #ef8172;
-
     padding-bottom: 3%;
 }
 .press-img {
@@ -128,16 +131,7 @@ p {
     font-size: 1.5rem;
 }
 
-.price-text {
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
-}
 /* CTA SECTION */
-#cta {
-    background-color: #ff4c68;
-    color: #fff;
-}
 
 /* FOOTER SECTION */
 
